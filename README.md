@@ -1,9 +1,7 @@
-TypeScript React "react-testing-library" Demo
-=============================================
+TypeScript React "react-testing-library" "getByTestId" Demo
+============================================================
 
-如何使用jest和`react-testing-library`来测试react component的行为。
-
-`react-testing-library`已经迁移到`@testing-library/react`
+可以给某个element增加`data-testid`，然后在测试中使用`getByTestId`获取它。
 
 ```
 npm install

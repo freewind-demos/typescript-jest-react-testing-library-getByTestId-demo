@@ -18,7 +18,7 @@ export default function Hello(props: Props) {
 
   return <div>
     <div>Hello, {name}</div>
-    <input type='text' value={name} onChange={onChange}/>
+    <input type='text' value={name} onChange={onChange} data-testid='name-input'/>
   </div>
 };
 
